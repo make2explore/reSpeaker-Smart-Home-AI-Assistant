@@ -1,0 +1,76 @@
+main/mcp_server.cc:38:    AddTool("self.get_device_status",
+main/mcp_server.cc:48:    AddTool("self.audio_speaker.set_volume", 
+main/mcp_server.cc:61:        AddTool("self.screen.set_brightness",
+main/mcp_server.cc:75:        AddTool("self.screen.set_theme",
+main/mcp_server.cc:88:        AddTool("self.camera.take_photo",
+main/mcp_server.cc:110:void McpServer::AddTool(McpTool* tool) {
+main/mcp_server.cc:121:void McpServer::AddTool(const std::string& name, const std::string& description, const PropertyList& properties, std::function<ReturnValue(const PropertyList&)> callback) {
+main/mcp_server.cc:122:    AddTool(new McpTool(name, description, properties, callback));
+main/boards/kevin-c3/led_strip_control.cc:33:    mcp_server.AddTool("self.led_strip.get_brightness",
+main/boards/kevin-c3/led_strip_control.cc:39:    mcp_server.AddTool("self.led_strip.set_brightness",
+main/boards/kevin-c3/led_strip_control.cc:56:    mcp_server.AddTool("self.led_strip.set_single_color", 
+main/boards/kevin-c3/led_strip_control.cc:74:    mcp_server.AddTool("self.led_strip.set_all_color", 
+main/boards/kevin-c3/led_strip_control.cc:90:    mcp_server.AddTool("self.led_strip.blink", 
+main/boards/kevin-c3/led_strip_control.cc:108:    mcp_server.AddTool("self.led_strip.scroll", 
+main/boards/common/lamp_controller.h:25:        mcp_server.AddTool("self.lamp.get_state", "Get the power state of the lamp", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/common/lamp_controller.h:29:        mcp_server.AddTool("self.lamp.turn_on", "Turn on the lamp", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/common/lamp_controller.h:35:        mcp_server.AddTool("self.lamp.turn_off", "Turn off the lamp", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/waveshare-s3-touch-amoled-2.06/esp32-s3-touch-amoled-2.06.cc:292:        mcp_server.AddTool("self.system.reconfigure_wifi",
+main/boards/otto-robot/otto_controller.cc:200:        mcp_server.AddTool("self.otto.walk_forward",
+main/boards/otto-robot/otto_controller.cc:216:        mcp_server.AddTool("self.otto.turn_left",
+main/boards/otto-robot/otto_controller.cc:232:        mcp_server.AddTool("self.otto.jump",
+main/boards/otto-robot/otto_controller.cc:244:        mcp_server.AddTool("self.otto.swing",
+main/boards/otto-robot/otto_controller.cc:258:        mcp_server.AddTool("self.otto.moonwalk",
+main/boards/otto-robot/otto_controller.cc:274:        mcp_server.AddTool("self.otto.bend",
+main/boards/otto-robot/otto_controller.cc:288:        mcp_server.AddTool("self.otto.shake_leg",
+main/boards/otto-robot/otto_controller.cc:302:        mcp_server.AddTool("self.otto.updown",
+main/boards/otto-robot/otto_controller.cc:318:            mcp_server.AddTool(
+main/boards/otto-robot/otto_controller.cc:331:            mcp_server.AddTool(
+main/boards/otto-robot/otto_controller.cc:344:            mcp_server.AddTool(
+main/boards/otto-robot/otto_controller.cc:359:        mcp_server.AddTool("self.otto.stop", "立即停止", PropertyList(),
+main/boards/otto-robot/otto_controller.cc:372:        mcp_server.AddTool(
+main/boards/otto-robot/otto_controller.cc:432:        mcp_server.AddTool("self.otto.get_trims", "获取当前的舵机微调设置", PropertyList(),
+main/boards/otto-robot/otto_controller.cc:455:        mcp_server.AddTool("self.otto.get_status", "获取机器人状态，返回 moving 或 idle",
+main/boards/otto-robot/otto_controller.cc:460:        mcp_server.AddTool("self.battery.get_level", "获取机器人电池电量和充电状态", PropertyList(),
+main/boards/waveshare-c6-touch-amoled-1.43/esp32-c6-touch-amoled-1.43.cc:240:        mcp_server.AddTool("self.disp.setbacklight", "设置屏幕亮度", PropertyList({
+main/boards/esp-hi/esp_hi.cc:303:        mcp_server.AddTool("self.dog.basic_control", "机器人的基础动作。机器人可以做以下基础动作：\n"
+main/boards/esp-hi/esp_hi.cc:326:        mcp_server.AddTool("self.dog.advanced_control", "机器人的扩展动作。机器人可以做以下扩展动作：\n"
+main/boards/esp-hi/esp_hi.cc:357:        mcp_server.AddTool("self.light.get_power", "获取灯是否打开", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-hi/esp_hi.cc:361:        mcp_server.AddTool("self.light.turn_on", "打开灯", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-hi/esp_hi.cc:367:        mcp_server.AddTool("self.light.turn_off", "关闭灯", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-hi/esp_hi.cc:373:        mcp_server.AddTool("self.light.set_rgb", "设置RGB颜色", PropertyList({
+main/boards/esp32-s3-touch-lcd-3.5/esp32-s3-touch-lcd-3.5.cc:327:        mcp_server.AddTool("self.system.reconfigure_wifi",
+main/boards/xmini-c3/xmini_c3_board.cc:153:        mcp_server.AddTool("self.set_press_to_talk",
+main/boards/xiao-esp32s3-sense/xiao_esp32s3_sense.cc:176:        mcp_server.AddTool(
+main/boards/xiao-esp32s3-sense/xiao_esp32s3_sense.cc:266:        mcp_server.AddTool(
+main/boards/electron-bot/electron_bot_controller.cc:152:        mcp_server.AddTool(
+main/boards/electron-bot/electron_bot_controller.cc:197:        mcp_server.AddTool(
+main/boards/electron-bot/electron_bot_controller.cc:231:        mcp_server.AddTool("self.electron.head_move",
+main/boards/electron-bot/electron_bot_controller.cc:250:        mcp_server.AddTool("self.electron.stop", "立即停止", PropertyList(),
+main/boards/electron-bot/electron_bot_controller.cc:259:        mcp_server.AddTool("self.electron.get_status", "获取机器人状态，返回 moving 或 idle",
+main/boards/electron-bot/electron_bot_controller.cc:265:        mcp_server.AddTool(
+main/boards/electron-bot/electron_bot_controller.cc:320:        mcp_server.AddTool("self.electron.get_trims", "获取当前的舵机微调设置", PropertyList(),
+main/boards/electron-bot/electron_bot_controller.cc:343:        mcp_server.AddTool("self.battery.get_level", "获取机器人电池电量和充电状态", PropertyList(),
+main/boards/df-k10/led_control.cc:27:    mcp_server.AddTool("self.led_strip.get_brightness",
+main/boards/df-k10/led_control.cc:33:    mcp_server.AddTool("self.led_strip.set_brightness",
+main/boards/df-k10/led_control.cc:50:    mcp_server.AddTool("self.led_strip.set_single_color", 
+main/boards/df-k10/led_control.cc:68:    mcp_server.AddTool("self.led_strip.set_all_color", 
+main/boards/df-k10/led_control.cc:84:    mcp_server.AddTool("self.led_strip.blink", 
+main/boards/df-k10/led_control.cc:102:    mcp_server.AddTool("self.led_strip.scroll", 
+main/boards/waveshare-s3-touch-amoled-1.75/esp32-s3-touch-amoled-1.75.cc:305:        mcp_server.AddTool("self.system.reconfigure_wifi",
+main/boards/esp32-s3-touch-amoled-1.8/esp32-s3-touch-amoled-1.8.cc:289:        mcp_server.AddTool("self.system.reconfigure_wifi",
+main/boards/xmini-c3-v3/xmini_c3_board.cc:167:        mcp_server.AddTool("self.set_press_to_talk",
+main/boards/esp-sparkbot/esp_sparkbot_board.cc:207:        mcp_server.AddTool("self.chassis.get_light_mode", "获取灯光效果编号", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-sparkbot/esp_sparkbot_board.cc:215:        mcp_server.AddTool("self.chassis.go_forward", "前进", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-sparkbot/esp_sparkbot_board.cc:220:        mcp_server.AddTool("self.chassis.go_back", "后退", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-sparkbot/esp_sparkbot_board.cc:225:        mcp_server.AddTool("self.chassis.turn_left", "向左转", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-sparkbot/esp_sparkbot_board.cc:230:        mcp_server.AddTool("self.chassis.turn_right", "向右转", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-sparkbot/esp_sparkbot_board.cc:235:        mcp_server.AddTool("self.chassis.dance", "跳舞", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/esp-sparkbot/esp_sparkbot_board.cc:241:        mcp_server.AddTool("self.chassis.switch_light_mode", "打开灯光效果", PropertyList({
+main/boards/esp-sparkbot/esp_sparkbot_board.cc:257:        mcp_server.AddTool("self.camera.set_camera_flipped", "翻转摄像头图像方向", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/xmini-c3-4g/xmini_c3_4g_board.cc:169:        mcp_server.AddTool("self.set_press_to_talk",
+main/boards/lilygo-t-cameraplus-s3/ir_filter_controller.h:25:        mcp_server.AddTool("self.camera.get_ir_filter_state", "Get the state of the camera's infrared filter", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/lilygo-t-cameraplus-s3/ir_filter_controller.h:29:        mcp_server.AddTool("self.camera.enable_ir_filter", "Enable the camera's infrared filter", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/boards/lilygo-t-cameraplus-s3/ir_filter_controller.h:35:        mcp_server.AddTool("self.camera.disable_ir_filter", "Disable the camera's infrared filter", PropertyList(), [this](const PropertyList& properties) -> ReturnValue {
+main/mcp_server.h:260:    void AddTool(McpTool* tool);
+main/mcp_server.h:261:    void AddTool(const std::string& name, const std::string& description, const PropertyList& properties, std::function<ReturnValue(const PropertyList&)> callback);
