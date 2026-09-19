@@ -1,6 +1,6 @@
 # Home Controller — XIAO ESP32-S3
 
-The **Home Controller** is one of the three main hardware/software components of our AI smart-home project. It uses a **Seeed Studio XIAO ESP32-S3**, an **SHT40 temperature and humidity sensor**, and a **4-channel relay module**.
+The **Home Controller** is one of the three main hardware/software components of our ***reSpeaker Smart Home AI Assistant*** project. It uses a **Seeed Studio XIAO ESP32-S3**, an **SHT40 temperature and humidity sensor**, and a **4-channel relay module**.
 
 This folder contains the Arduino firmware for the Home Controller.
 
@@ -322,9 +322,9 @@ https://github.com/Sensirion/arduino-i2c-sht4x
 
 ---
 
-## 15. Part of the Complete AI Smart Home Project
+## 15. Part of the Complete 'reSpeaker Smart Home AI Assistant' Project
 
-This Home Controller is one part of our complete AI smart-home system:
+This Home Controller is one part of our complete 'reSpeaker Smart Home AI Assistant' system:
 
 - **Seeed Studio reSpeaker Voice AI Development Kit** — the voice interface and hero hardware
 - **XIAO ESP32-S3 Home Controller** — device control and environmental sensing
