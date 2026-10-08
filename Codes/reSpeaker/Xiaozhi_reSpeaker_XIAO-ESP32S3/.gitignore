@@ -1,0 +1,46 @@
+tmp/
+components/
+managed_components/
+build/
+.vscode/
+.devcontainer/
+sdkconfig.old
+sdkconfig
+dependencies.lock
+.env
+releases/
+main/assets/lang_config.h
+main/mmap_generate_emoji.h
+.DS_Store
+.cache
+main/mmap_generate_emoji.h
+*.pyc
+*.bin
+
+
+
+# ESP-IDF
+build/
+sdkconfig
+sdkconfig.old
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.log
+
