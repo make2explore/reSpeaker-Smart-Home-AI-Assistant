@@ -1,0 +1,7 @@
+main/home_ui_control.c:84:static bool request_device_state(home_device_t device,
+main/home_ui_control.c:92:        "http://home-controller.local/api/device/%s/%s",
+main/home_ui_control.c:145:        "http://home-controller.local/api/devices/status";
+main/home_ui_control.c:255:bool home_ui_set_device_state(home_device_t device,
+main/home_ui_control.c:262:    return request_device_state(device, on);
+main/home_ui_control.c:450:    if (!home_ui_set_device_state(device, on)) {
+main/home_ui_control.h:34:bool home_ui_set_device_state(home_device_t device, bool on);
