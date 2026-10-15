@@ -15,9 +15,6 @@
 #include <ESPmDNS.h>
 #include <SensirionI2cSht4x.h>
 #include <Wire.h>
-
-
-
 // ==================== Wi-Fi Provisioning ====================
 
 Preferences preferences;
@@ -36,7 +33,7 @@ bool provisioningMode = false;
 
 const char* PROVISIONING_AP_PREFIX = "Home-Controller-Setup";
 
-const char* PROVISIONING_AP_PASSWORD = "setup1234";
+const char* PROVISIONING_AP_PASSWORD = "setup-1234";
 
 
 

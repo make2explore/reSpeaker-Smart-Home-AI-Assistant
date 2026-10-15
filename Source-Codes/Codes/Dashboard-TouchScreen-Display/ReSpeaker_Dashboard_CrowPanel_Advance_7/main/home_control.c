@@ -720,7 +720,7 @@ static void start_provisioning_mode(void)
     char ap_ssid[32];
     char ap_password[16];
     snprintf(ap_ssid, sizeof(ap_ssid), "CrowPanel-Setup-%02X%02X", mac[4], mac[5]);
-    snprintf(ap_password, sizeof(ap_password), "setup-%02X%02X", mac[4], mac[5]);
+    snprintf(ap_password, sizeof(ap_password), "Dashboard-1234");
 
     wifi_config_t ap_config = {0};
     strncpy((char *)ap_config.ap.ssid, ap_ssid, sizeof(ap_config.ap.ssid) - 1);
