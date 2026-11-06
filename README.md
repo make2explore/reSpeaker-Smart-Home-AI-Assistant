@@ -47,7 +47,9 @@ The project brings **voice AI, embedded hardware, physical device control, and a
 
 ▶️ Inside the ReSpeaker XVF3800 Voice AI Dev Kit✨  #ai #esp32 🔗  https://youtube.com/shorts/igvbQ5YoHng  
 
-▶️ DIY Project on ReSpeaker XVF3800 🔗  https://youtu.be/  
+▶️ Building an AI Smart Speaker with the reSpeaker XVF3800 🔗 https://youtu.be/sGfYzeqlYvA  
+  
+▶️ We Built Our Own AI Smart Home Assistant! | reSpeaker XVF3800  🔗 https://youtu.be/  
   
 
 -------------------------------------------------------------------------------------------------------
