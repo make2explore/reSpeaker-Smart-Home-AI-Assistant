@@ -1,7 +1,7 @@
 # reSpeaker Smart Home AI Assistant
 Building our own AI-powered smart-home assistant with Seeed Studio's reSpeaker Voice AI Development Kit.
 
-<img src="/Images/m2e-reSpeaker-AI-project.jpg" height="200">
+<img src="/Images/m2e-reSpeaker-AI-project-HD.jpg" height="200">
   
 **Joy** is our DIY AI-powered smart home assistant, built around the **Seeed Studio reSpeaker Voice AI Development Kit**, featuring the **XMOS XVF3800** and an integrated **XIAO ESP32-S3**. We deployed the **Xiaozhi AI MCP chatbot** on the XIAO ESP32-S3, turning the reSpeaker into the voice interface for our smart home. Instead of relying only on predefined commands, Joy can understand natural-language requests and translate them into actions through the MCP-based interaction.
 
