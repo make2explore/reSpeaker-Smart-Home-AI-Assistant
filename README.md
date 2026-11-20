@@ -64,7 +64,14 @@ The project brings **voice AI, embedded hardware, physical device control, and a
 
 🛒  Purchase  -   
   
-🟥 Buy reSpeaker XVF3800 🔗 [Product page](https://www.seeedstudio.com/ReSpeaker-XVF3800-With-Case-XIAO-ESP32S3-p-6628.html?utm_source=kol&utm_medium=make2explore&utm_campaign=3800+With+Xiao)  
+🟥 1. reSpeaker XMOS XVF3800 with XIAO ESP32S3  
+https://www.seeedstudio.com/ReSpeaker-XVF3800-With-Case-XIAO-ESP32S3-p-6628.html?&sensecap_affiliate=zukUpnO&referring_service=link  
+🟥 2. XIAO ESP32S3 Sense  
+https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html?sensecap_affiliate=zukUpnO&referring_service=link  
+🟥 3. Grove Temperature & Humidity Sensor (SHT40)  
+https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html?sensecap_affiliate=zukUpnO&referring_service=link  
+🟥 4. Grove 4-Channel SPDT Relay  
+https://www.seeedstudio.com/Grove-4-Channel-SPDT-Relay-p-3119.html?sensecap_affiliate=zukUpnO&referring_service=link  
 
 🌐 SeeedStudio Official Website : 🔗 https://www.seeedstudio.com  
 
