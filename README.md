@@ -87,7 +87,7 @@ https://www.seeedstudio.com/Grove-4-Channel-SPDT-Relay-p-3119.html?sensecap_affi
 
 🌐 GitHub Repository - 🔗 https://github.com/make2explore/reSpeaker-XVF3800    
   
-🌐 Hackster Blog - 🔗 https://www.hackster.io/make2explore  
+🌐 Hackster Blog - 🔗 https://www.hackster.io/make2explore/building-an-ai-smart-speaker-with-the-respeaker-xvf3800-2d4b2b  
   
 🌐 Instructable Blog - 🔗 https://www.instructables.com/make2explore  
   
