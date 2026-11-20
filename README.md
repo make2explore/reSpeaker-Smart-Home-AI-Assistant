@@ -49,7 +49,7 @@ The project brings **voice AI, embedded hardware, physical device control, and a
 
 ▶️ Building an AI Smart Speaker with the reSpeaker XVF3800 🔗 https://youtu.be/sGfYzeqlYvA  
   
-▶️ We Built Our Own AI Smart Home Assistant! | reSpeaker XVF3800  🔗 https://youtu.be/  
+▶️ We Built Our Own AI Smart Home Assistant! | reSpeaker XVF3800  🔗 https://youtu.be/sGfYzeqlYvA  
   
 
 -------------------------------------------------------------------------------------------------------
