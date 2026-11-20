@@ -37,7 +37,7 @@ The project brings **voice AI, embedded hardware, physical device control, and a
 - Arduino Audio Tools library [Download](https://github.com/pschatzmann/arduino-audio-tools)  
   
 **Hardware**
-- [**reSpeaker XMOS XVF3800 with XIAO ESP32S3**](https://www.seeedstudio.com/ReSpeaker-XVF3800-With-Case-XIAO-ESP32S3-p-6628.html?utm_source=kol&utm_medium=make2explore&utm_campaign=3800+With+Xiao)  
+- [**reSpeaker XMOS XVF3800 with XIAO ESP32S3**](https://www.seeedstudio.com/ReSpeaker-XVF3800-With-Case-XIAO-ESP32S3-p-6628.html?&sensecap_affiliate=zukUpnO&referring_service=link)  
 - USB Type C to Type A cable  
  
 
